@@ -1,18 +1,22 @@
 <!DOCTYPE html>
-<html>
+<html lang="zh-Hant">
 <head>
-<title>我的互動教學網站</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>我的互動教材</title>
+  <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
+  <h1>數學互動練習</h1>
+  <p>請回答下面的題目：</p>
 
-<h1>歡迎來到我的教學網站</h1>
+  <h2>2 + 3 = ?</h2>
 
-<p>這是我第一個網站</p>
+  <input type="text" id="answer" placeholder="請輸入答案">
+  <button onclick="checkAnswer()">提交</button>
 
-<button onclick="alert('你按了按鈕！')">
-點我
-</button>
+  <p id="result"></p>
 
+  <script src="script.js"></script>
 </body>
 </html>
